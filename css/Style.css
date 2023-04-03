@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.map{
+    width: 100%;
+    height: 577px;
+    background-color: black; 
+}
+
+.champion{
+    width: 25px;
+    height: 37.5px;
+    background-color: red;
+    position: absolute;
+    top: 225px;
+    left: 620px;
+    transition: 1s;
+}
+
+.skill{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute;
+    /* left: 99%; */
+    transition: 3s;
+}
