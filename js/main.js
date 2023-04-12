@@ -130,7 +130,7 @@ runSkill2();
 
 
 
-setInterval(function() {
+var intervalCheckCham = setInterval(function() {
 widthSkill = [];
 leftSkill = [];
 heightSkill = [];
@@ -151,7 +151,7 @@ for(var i = 0 ; i < skill.length ; i++){
     if((checkCham3<checkCham1) && (checkCham4<checkCham2)){
         document.querySelector('.gameOver').style.display = 'flex';
         clearInterval(intervalSkill);
-        // clearInterval(checkScore);
+        clearInterval(intervalCheckCham);
     }
 }
     // console.log(widthSkill);
