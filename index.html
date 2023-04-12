@@ -9,12 +9,26 @@
 <link rel="stylesheet" href="./css/Style.css">
 <body>
     <div class="map">
+        <div class="board">Score: 0 <br>
+            Level: 1</div>
         
         <div class="champion"></div>
-        <div class="skill skill1"></div>
-        <div class="skill skill2"></div>
-        <div class="skill skill1"></div>
-        <div class="skill skill2"></div>
+
+        <div class="allSkill">
+            <div class="skill skill1"></div>
+            <div class="skill skill2"></div>
+        </div>
+
+        <div class="start">
+            <span style="margin-bottom: 20px;">Game né chứng ngại vật</span>
+            <a onclick="play()">Chơi Luông!</a>
+        </div>
+
+        <div class="gameOver">
+            <span style="margin-bottom: 20px;">Game Over!</span>
+            <a class="replay">Chơi lại</a>
+        </div>
+
         
     </div>
     <script src="./js/main.js"></script>
